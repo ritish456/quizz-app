@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family: montserrat;
+           background: rgb(0, 39, 91);
+           height: 100vh;
+           overflow: hidden;
+        }
+        .nav{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            background:white ;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 2px;
+            background-color: #eeedf0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+        }
+        .form{
+            padding: 0 40px;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .formclass button{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: blue;
+        }
+        .form input{
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 16px;
+            border: none;
+            background: none;
+            outline: none;
+        }
+        #heading{
+            text-align: center;
+           padding: 0 0 20px 0;
+           border-bottom: 1px solid silver;
+        }
+        .nav p{
+            text-align: center;
+        }
+        .form button{
+            outline: none;
+        }
+        #quiz-app h1{
+            border:1px solid black;
+            margin-top: 100px;
+            text-align: center;
+            align-items: center;
+            background-color:azure;
+            padding:0px 10px;
+            margin-left: 10px;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 2px black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(28, 28, 125);
+        }
+    </style>
+</head>
+<body>
+    <div id="quiz-app">
+        <h1>Quiz App : Test Your Potential !</h1>
+    </div>
+    <div class="nav">
+        <h2 id="heading">Login</h2>
+        <form action="index2.html">
+            <div class="form">
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email here" name="email"></form><br>
+            <label>Password</label>
+            <input type="password"placeholder="Enter your password here" name="password"></br>
+            <button type="Submit">Login</button>
+            </div>
+        </form>
+        <p>Don't have an account ?<a href="register.html">register</a> </p>
+
+    </div>
+</body>
+</html>
